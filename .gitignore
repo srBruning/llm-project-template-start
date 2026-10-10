@@ -1,0 +1,39 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Dependências e ambientes virtuais
+node_modules/
+.venv/
+venv/
+
+# Builds, cobertura e caches
+dist/
+build/
+coverage/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+
+# IDE e sistema operacional
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Temporários e logs
+*.log
+*.tmp
+tmp/
+
+# Preferências locais dos agentes
+CLAUDE.local.md
+.gemini/settings.json
+.codex/
+
